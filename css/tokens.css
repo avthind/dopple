@@ -1,0 +1,58 @@
+/* Dopple Digital - Design Tokens */
+
+:root {
+  /* Colors */
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+  --color-red: #B3001B;
+  --color-gray-dark: #333333;
+  --color-gray-light: #F7F7F7;
+  
+  /* Typography */
+  --font-family-base: 'Inter', Helvetica, Arial, sans-serif;
+  --font-family-heading: 'Inter', Helvetica, Arial, sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-size-base: 16px;
+  --font-size-h1: 48px;
+  --font-size-h2: 36px;
+  --font-size-h3: 28px;
+  --font-size-h4: 20px;
+  --line-height-base: 1.6;
+  --line-height-heading: 1.2;
+  
+  /* Spacing / Layout */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 32px;
+  --space-xl: 64px;
+  --space-xxl: 128px;
+  --container-max-width: 1200px;
+  --container-padding: var(--space-lg);
+  --column-gap: var(--space-md);
+  --row-gap: var(--space-lg);
+  --section-padding-vertical: var(--space-xl);
+  
+  /* Motion / Animation */
+  --transition-fast: 0.2s ease-in-out;
+  --transition-medium: 0.4s ease;
+  --translate-small: 5px;
+  --translate-medium: 10px;
+  --opacity-start: 0;
+  --opacity-end: 1;
+  
+  /* Buttons / CTA */
+  --button-bg-primary: var(--color-red);
+  --button-text-primary: var(--color-white);
+  --button-padding: var(--space-sm) var(--space-md);
+  --button-border-radius: 4px;
+  --button-transition: var(--transition-fast);
+  
+  /* Cards / Service Blocks */
+  --card-padding: var(--space-md);
+  --card-bg: var(--color-white);
+  --card-border-radius: 8px;
+  --card-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
