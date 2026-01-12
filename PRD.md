@@ -340,3 +340,75 @@ Your task is to generate a fully structured, static, responsive corporate websit
 - Subtle racing motif lines and directional layout flows  
 - Accessibility compliance and semantic HTML  
 - No frameworks or heavy libraries  
+
+# Dopple Digital - Color Palette
+
+## Official Color Palette
+
+This document contains the official color palette for Dopple Digital.
+
+### Primary Colors
+
+- **Black**: `#000000`
+  - Usage: Primary text, logo, footer background, strong elements
+
+- **White**: `#FFFFFF`
+  - Usage: Backgrounds, button text, card backgrounds
+
+### Accent Colors
+
+- **Warm Black**: `#2A2522`
+  - Usage: Secondary text, subheadlines, card descriptions, contact descriptions
+
+- **Dark Red**: `#A90015`
+  - Usage: Primary buttons, navigation underlines, racing line accent, links, bullet points, form focus states
+
+- **Light Red**: `#C30011`
+  - Usage: Button hover states, contact link hover states
+
+### Neutral Colors
+
+- **Dark Gray**: `#CED2DC`
+  - Usage: Borders (navigation, cards, dividers), form borders, racing line background
+
+- **Light Gray**: `#F2F5FA`
+  - Usage: Hero gradient background, subtle backgrounds
+
+## CSS Variables
+
+All colors are defined in `css/tokens.css`:
+
+```css
+--color-black: #000000;
+--color-white: #FFFFFF;
+--color-warm-black: #2A2522;
+--color-red: #A90015;
+--color-red-light: #C30011;
+--color-gray-dark: #CED2DC;
+--color-gray-light: #F2F5FA;
+```
+
+## Color Usage Guidelines
+
+1. **Text Hierarchy**
+   - Primary text: Black (#000000)
+   - Secondary text: Warm Black (#2A2522)
+
+2. **Interactive Elements**
+   - Primary buttons: Dark Red (#A90015)
+   - Button hover: Light Red (#C30011)
+   - Links: Dark Red (#A90015)
+   - Link hover: Light Red (#C30011)
+
+3. **Borders & Dividers**
+   - Use Dark Gray (#CED2DC) for all borders and dividers
+   - Provides subtle definition without harsh contrast
+
+4. **Backgrounds**
+   - Primary: White (#FFFFFF)
+   - Subtle: Light Gray (#F2F5FA) for gradients and soft backgrounds
+   - Footer: Black (#000000)
+
+## Source
+
+Colors selected from Coolors palette: https://coolors.co/2a2522-a90015-c30011-ced2dc-f2f5fa
