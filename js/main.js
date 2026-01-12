@@ -71,7 +71,7 @@
         inputs.forEach(input => {
           if (!input.value.trim()) {
             isValid = false;
-            input.style.borderColor = '#B3001B';
+            input.style.borderColor = '#A90015';
           } else {
             input.style.borderColor = '';
           }

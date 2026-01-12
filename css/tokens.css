@@ -4,9 +4,11 @@
   /* Colors */
   --color-black: #000000;
   --color-white: #FFFFFF;
-  --color-red: #B3001B;
-  --color-gray-dark: #333333;
-  --color-gray-light: #F7F7F7;
+  --color-warm-black: #2A2522;
+  --color-red: #A90015;
+  --color-red-light: #C30011;
+  --color-gray-dark: #CED2DC;
+  --color-gray-light: #F2F5FA;
   
   /* Typography */
   --font-family-base: 'Inter', Helvetica, Arial, sans-serif;
